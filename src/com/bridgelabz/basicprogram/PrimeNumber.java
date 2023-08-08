@@ -8,7 +8,7 @@ public class PrimeNumber {
         System.out.println("Plz enter value : ");
         int value = scan.nextInt();
         int temp = 0;
-        for (int i = 2; i <= value; i++) {
+        for (int i = 2; i < value; i++) {
             if (value % i == 0) {
                 temp = temp + 1;
                 break;
